@@ -19,7 +19,7 @@ function initMap(){
     //1.3000° N, 103.8000° E
     center: {lat: 1.3000, lng: 103.8000},
     scrollwheel: false,
-    zoom: 8
+    zoom: 12
   });
 }
 
