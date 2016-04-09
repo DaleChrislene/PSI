@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PSI | Singapore</title>
+
+	<!-- Load CSS Stylesheets -->
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/psi.css">
+</head>
+<body>
+	<div id="main">
+		<nav>
+			<div class="nav-wrapper orange-darken-2">
+				<a href="#!" class="brand-logo">PSI</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section class="psi-reading">
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel">
+						<span class="black-text psi-text">PSI Reading (24-hr): </span><span id="psi-reading-24" class="black-text psi-text"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel">
+						<span class="black-text psi-text">PSI Reading (3-hr): </span><span id="psi-reading-3" class="black-text psi-text"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<span>Data correct as of: </span><span id="date-time"></span>
+
+	<!-- Load Script -->
+	<!-- Compiled and minified JavaScript -->
+	<!--<script src="./js/materialize.min.js"></script>-->
+	<script type="text/javascript" src="./js/psi.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "PSI",
+  "description": "Get PSI Readings in Singapore",
+  "version": "2.0",
+
+  "browser_action": {
+    "default_title": "PSI | Singapore",
+    "default_popup": "index.html"
+
+  },
+  "content_scripts": [
+    {"js": ["materialize.min.js"], "matches" : ["http://*/*", "https://*/*"]}
+  ],
+
+  "permissions": [
+    "https://cdnjs.cloudflare.com/ajax/libs/*", "http://www.haze.gov.sg/"
+  ],
+
+  "manifest_version": 2
+}
